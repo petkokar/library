@@ -1,7 +1,6 @@
 {
   "name": "boardgames",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test:unit": "mocha -u tdd 'tests/unit/*.js'",
@@ -20,5 +19,9 @@
   "devDependencies": {
     "@playwright/test": "1.30",
     "mocha": "^10.2.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
 }
